@@ -9,6 +9,8 @@ $('form button').click(function(){
 
     $(`
       <li>${novatarefa}</li>`).appendTo('ul')
+
+      $('#nova-tarefa').val('')
       
 })
 
